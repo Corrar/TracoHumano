@@ -160,7 +160,7 @@ subtle paper texture. No characters, NO shelter in frame.
 
 ---
 
-## Checklist de validação (antes de partir para os 96 planos)
+## Checklist de validação (antes de partir para os 144 planos)
 
 - [ ] Léo: boné vermelho para a frente em todas as vistas
 - [ ] Léo: mochila verde-musgo presente e consistente

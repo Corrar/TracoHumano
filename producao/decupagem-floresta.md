@@ -8,7 +8,7 @@ geração no Higgsfield. Cada linha é um clipe.
 **Convenções**
 
 - `PG` plano geral · `PM` plano médio · `PA` plano americano · `CL` close · `DET` detalhe/inserto
-- Duração-alvo por clipe: 3–6 s. Total: 96 planos ≈ 480 s.
+- Duração-alvo por clipe: 3–6 s. Total: **144 planos ≈ 504 s** (8:24).
 - Uma ação clara por clipe (roteiro, linha 74).
 - Cortes secos entre locais. Transição suave só entre composições compatíveis.
 
@@ -240,11 +240,43 @@ Imagens-base reutilizadas em todo o vídeo. Sem elas não há consistência.
 
 ---
 
+## Aderência às janelas do roteiro
+
+Soma das durações-alvo por bloco contra a janela definida no roteiro.
+A decupagem fecha em **504 s contra os 480 s** previstos — 24 s de excesso,
+concentrados no Bloco 8.
+
+| Bloco | Janela | Planos | Soma | Desvio |
+| --- | --- | --- | --- | --- |
+| 1 | 42 s | 13 | 40 s | −2 s |
+| 2 | 51 s | 17 | 58 s | **+7 s** |
+| 3 | 52 s | 12 | 42 s | **−10 s** |
+| 4 | 64 s | 18 | 65 s | +1 s |
+| 5 | 54 s | 18 | 62 s | **+8 s** |
+| 6 | 53 s | 15 | 52 s | −1 s |
+| 7 | 53 s | 14 | 53 s | 0 |
+| 8 | 65 s | 24 | 85 s | **+20 s** |
+| 9 | 46 s | 13 | 47 s | +1 s |
+| **Total** | **480 s** | **144** | **504 s** | **+24 s** |
+
+As durações são alvos de geração, não corte final — o ajuste fino acontece na
+montagem. Mas o Bloco 8 a +20 s e o Bloco 3 a −10 s são grandes demais para
+resolver só aparando frames. Duas saídas, **decisão do criador**:
+
+- **Reequilibrar:** encurtar o Bloco 8 (candidatos naturais: 8.05, 8.06, 8.13
+  e a passagem de horas em 8.15 já compensam entre si) e alongar o Bloco 3,
+  que está curto em relação ao que o roteiro pede ali.
+- **Aceitar 8:24:** manter os 144 planos e deixar o vídeo fechar 24 s mais longo,
+  reescrevendo as marcações de tempo dos blocos.
+
+Enquanto não houver decisão, os prompts em `producao/prompts-planos.md` cobrem
+os 144 planos como estão.
+
 ## Decisões do criador (fechadas)
 
 **1. Mochila do Léo: verde-musgo.** ✅ Confirmado. A ficha de 8 vistas enviada
 pelo criador mostra o Léo sem mochila, então a R-04 precisa reintroduzi-la e
-fixá-la — ela aparece em quase todos os 96 planos.
+fixá-la — ela aparece em quase todos os 144 planos.
 
 **2. Casaco de frio: azul-petróleo.** ✅ Confirmado. Usado a partir do plano 5.16.
 
@@ -255,6 +287,7 @@ fixá-la — ela aparece em quase todos os 96 planos.
 são inserções de edição, não de geração. Feitos na montagem final.
 
 Prompts das 7 referências: `producao/prompts-referencias.md`
+Prompts dos 144 planos: `producao/prompts-planos.md`
 
 ---
 
@@ -266,4 +299,4 @@ Prompts das 7 referências: `producao/prompts-referencias.md`
 4. Montar na ordem, com cortes editáveis para a locução futura.
 5. Exportar MP4 1920×1080, 24 fps, **sem faixa de áudio**.
 
-**Volume total:** 96 clipes + ~96 imagens-base + 7 referências.
+**Volume total:** 144 clipes + ~144 imagens-base + 7 referências.
