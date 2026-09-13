@@ -23,13 +23,13 @@ Imagens-base reutilizadas em todo o vídeo. Sem elas não há consistência.
 | R-01 | Léo — folha de 8 vistas (boné vermelho, mochila verde-musgo) | ✅ fornecida pelo criador |
 | R-02 | Nina — folha de 8 vistas (peça mostarda, mochila amarela) | ✅ fornecida |
 | R-03 | Mara — folha de 8 vistas (chapéu/jaqueta verde-oliva, mochila cinza, lanterna) | ✅ fornecida |
-| R-04 | Léo com **casaco azul-petróleo** fechado | ⚠️ **falta** — ver Pendências |
+| R-04 | Léo com **casaco azul-petróleo** fechado ✅confirmado | ⚠️ falta gerar |
 | R-05 | Urso adulto castanho-escuro, 2D, anatomia real, 3 vistas | ⚠️ falta |
 | R-06 | Camping — mesa, barraca verde, anel de fogueira, balde | ⚠️ falta |
 | R-07 | Clareira A — pinheiro de raiz curva ao fundo-esq., pedra baixa à dir. | ⚠️ falta |
 | R-08 | Ponto B — pedra achatada à esq., dois pinheiros paralelos ao fundo | ⚠️ falta |
 | R-09 | Abrigo de emergência laranja, montado | ⚠️ falta |
-| R-10 | Mochila aberta — conteúdo espalhado (casaco, abrigo, isolante, apito, lanterna, água, sanduíche) | ⚠️ falta |
+| R-10 | Mochila **verde-musgo** aberta ✅confirmado — casaco, abrigo, isolante, apito, lanterna, água, sanduíche | ⚠️ falta gerar |
 
 ---
 
@@ -240,22 +240,21 @@ Imagens-base reutilizadas em todo o vídeo. Sem elas não há consistência.
 
 ---
 
-## Pendências que precisam da sua decisão
+## Decisões do criador (fechadas)
 
-**1. O casaco do Léo.** O roteiro (linha 42) pede **casaco azul-petróleo** quando
-esfria, mas a ficha de personagem que você enviou não tem essa versão. Preciso
-gerar a R-04 antes do plano 5.16. Confirma o azul-petróleo?
+**1. Mochila do Léo: verde-musgo.** ✅ Confirmado. A ficha de 8 vistas enviada
+pelo criador mostra o Léo sem mochila, então a R-04 precisa reintroduzi-la e
+fixá-la — ela aparece em quase todos os 96 planos.
 
-**2. A mochila do Léo.** O roteiro (linha 38) especifica **mochila verde-musgo**,
-mas na folha de 8 vistas que você mandou o Léo aparece **sem mochila**. Como a
-mochila é praticamente um personagem da história (o apito, o zíper, o sanduíche),
-ela precisa estar fixada numa referência antes de qualquer plano.
+**2. Casaco de frio: azul-petróleo.** ✅ Confirmado. Usado a partir do plano 5.16.
 
-**3. Falta a ficha do urso** (R-05) e as três referências de ambiente (R-06 a R-08).
-São 5 imagens que sustentam a continuidade do vídeo inteiro.
+**3. Ainda faltam gerar** o urso (R-05), o abrigo (R-09) e os três ambientes
+(R-06 a R-08).
 
 **4. Selo de simulação.** O `SIMULAÇÃO: ESCOLHA ERRADA` e o `NÃO CORRA DE UM URSO`
-são inserções de edição, não de geração. Precisam ser feitos na montagem final.
+são inserções de edição, não de geração. Feitos na montagem final.
+
+Prompts das 7 referências: `producao/prompts-referencias.md`
 
 ---
 
